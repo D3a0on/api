@@ -7,7 +7,7 @@ function whts_key(requests, response) {
         response.json({
 
             "login":true,
-            "body":user_key
+            "redirect":"https://painel.d3a0on.vercel.app/"
     
         })
     }else {
@@ -15,10 +15,9 @@ function whts_key(requests, response) {
     response.json({
 
         "login":false,
-        "body":user_key
 
     })}
 
 }
 Access-Control-Allow-Origin: *
-export default whts_key;
+export default whts_key
