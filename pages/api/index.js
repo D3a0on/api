@@ -19,5 +19,5 @@ function whts_key(requests, response) {
     })}
 
 }
-Access-Control-Allow-Origin: *;
+Access-Control-Allow-Origin: 'https://deamon.vercel.app/';
 export default whts_key
