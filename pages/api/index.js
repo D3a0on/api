@@ -19,4 +19,4 @@ function whts_key(requests, response) {
     })}
 
 }
-export default whts_key
+export default whts_key;
