@@ -19,5 +19,5 @@ function whts_key(requests, response) {
     })}
 
 }
-Access-Control-Allow-Origin: *
+
 export default whts_key
