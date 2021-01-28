@@ -20,3 +20,4 @@ function whts_key(requests, response) {
 
 }
 export default whts_key;
+Access-Control-Allow-Origin: *
