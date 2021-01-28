@@ -1,7 +1,7 @@
 function whts_key(requests, response) {
 
     const key_admin = 'admin'
-    const user_key = requests.body['key']
+    const user_key = requests.query['key']
 
     if(user_key == key_admin){
         response.json({
