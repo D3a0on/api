@@ -1,6 +1,6 @@
 function whts_key(requests, response) {
 
-    const key_admin = 'admin'
+    const key_admin = 'jKzd3qKk5egfepNl0EYXFNkA9wpbL2oU7UlvQFyfEng='
     const user_key = requests.body.key
 
     if(user_key == key_admin){
